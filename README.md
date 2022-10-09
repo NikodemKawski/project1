@@ -1,0 +1,2 @@
+# statweb
+Oefeningen Statisch website
