@@ -90,7 +90,6 @@ header .navbar a:hover {
     font-size: 8vw;
   }
 }
-/* Create three equal columns that floats next to each other */
 
 .column {
     float: left;
@@ -99,12 +98,13 @@ header .navbar a:hover {
 
 .side {
     width: 20%;
-    margin-top: 8px;
+    margin-top: 26.5px;
     border-bottom: 1px solid black;
 }
 
 #Nikodem{
     width: 40%;
+    margin-left: 70px;
 }
 
 .middle {
@@ -114,18 +114,22 @@ header .navbar a:hover {
     text-decoration: none;
     padding-bottom: 50px;
 }
-/* Clear floats after the columns */
 
 .row:after {
     content: "";
     display: table;
     clear: both;
 }
-/* Responsive layout - makes the three columns stack on top of each other instead of next to each other on smaller screens (600px wide or less) */
 
 @media screen and (max-width: 600px) {
     .column {
         width: 100%;
+    }
+    .middle{
+      border-bottom: none;
+    }
+    #Nikodem{
+      margin-left: 140px;
     }
 }
 
@@ -135,24 +139,38 @@ header .navbar a:hover {
 }
 
 .side2 {
-    width: 60%;
+  width: 80%;
+  margin-top: 35px;
+  border-bottom: 1px solid black;
+  padding-bottom: 59.5px;
 }
 
 .middle2 {
-    width: 40%;
+  width: 20%;
+  margin-top: 8px;
+  border-bottom: 1px solid black;
 }
-/* Clear floats after the columns */
+
+#bocian{
+  width: 40%;
+  margin-left: 80px;
+}
 
 .row2:after {
     content: "";
     display: table;
     clear: both;
 }
-/* Responsive layout - makes the three columns stack on top of each other instead of next to each other on smaller screens (600px wide or less) */
 
 @media screen and (max-width: 600px) {
     .column {
         width: 100%;
+    }
+    #bocian{
+      margin-left: 140px;
+    }
+    .middle2{
+      border: none;
     }
 }
 
