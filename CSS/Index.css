@@ -8,6 +8,7 @@
 
 body{
     background-color: black;
+    min-width: 100vh;
 }
 
 header{
@@ -21,15 +22,21 @@ header{
 }
 
 main{
-    left: 0;
     line-height: 200px;
-    margin-top: -100px;
-    position: absolute;
+    margin-top: 250px;
     text-align: center;
-    top: 50%;
     width: 100%;
     font-size: 150px;
     color: white;
+    
+}
+
+footer{
+  width: 100%;
+  text-align: center;
+  color: white;
+  position: absolute;
+  margin-top: 100px;
 }
 
 #portfolio{
