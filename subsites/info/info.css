@@ -103,8 +103,10 @@ header .navbar a:hover {
 }
 
 #Nikodem{
-    width: 40%;
-    margin-left: 70px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 
 .middle {
@@ -112,7 +114,7 @@ header .navbar a:hover {
     margin-top: 50px;
     border-bottom: 1px solid black;
     text-decoration: none;
-    padding-bottom: 50px;
+    padding-bottom: 80.5px;
 }
 
 .row:after {
@@ -128,9 +130,6 @@ header .navbar a:hover {
     .middle{
       border-bottom: none;
     }
-    #Nikodem{
-      margin-left: 140px;
-    }
 }
 
 .column2 {
@@ -142,7 +141,7 @@ header .navbar a:hover {
   width: 80%;
   margin-top: 35px;
   border-bottom: 1px solid black;
-  padding-bottom: 59.5px;
+  padding-bottom: 88.5px;
 }
 
 .middle2 {
@@ -152,8 +151,10 @@ header .navbar a:hover {
 }
 
 #bocian{
-  width: 40%;
-  margin-left: 80px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 
 .row2:after {
@@ -165,9 +166,6 @@ header .navbar a:hover {
 @media screen and (max-width: 600px) {
     .column {
         width: 100%;
-    }
-    #bocian{
-      margin-left: 140px;
     }
     .middle2{
       border: none;
