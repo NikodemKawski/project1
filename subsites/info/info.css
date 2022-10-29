@@ -81,16 +81,6 @@ header .navbar a:hover {
 }
 }
 
-@media screen and (max-width: 600px) {
-main{
-  font-size: 12vw;
-}
-
-#portfolio{
-  font-size: 8vw;
-}
-}
-
 .column {
   float: left;
   padding: 15px;
@@ -107,6 +97,16 @@ display: block;
 margin-left: auto;
 margin-right: auto;
 width: 50%;
+}
+
+#vlag{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  margin-bottom: 64px;
+  margin-top: 50px;
+  border: 1px solid black;
 }
 
 .middle {
