@@ -1,179 +1,179 @@
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    text-decoration: none;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
 }
 
 header{
-    position: relative;
-    top: 0; left: 0; right: 0;
-    background-color: black;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    z-index: 1000;
+  position: relative;
+  top: 0; left: 0; right: 0;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 1000;
 }
 
 header .navbar ul{
-  list-style: none;
+list-style: none;
 }
 
 header .navbar ul li{
-  float: left;
-  position: relative;
+float: left;
+position: relative;
 }
 
 header .navbar ul li a{
-    font-size: 20px;
-    padding: 20px;
-    color: white;
-    display: block;
+  font-size: 20px;
+  padding: 20px;
+  color: white;
+  display: block;
 }
+header .navbar a:hover {
+background-color: white;
+color: black;
+}
+
+#menu-bar{
+display: none;
+}
+
+header label{
+font-size: 20px;
+color: black;
+cursor: pointer;
+display: none;
+}
+
+@media(max-width:600px){
+
+header{
+  padding: 20px;
+}
+
+header label{
+  display: initial;
+  color: white;
+}
+
+header .navbar{
+  position: absolute;
+  top: 100%; left: 0; right: 0;
+  display: none;
+  border-top: 1px solid white;
+}
+
+header .navbar ul li{
+  width: 100%;
+  color: white;
+  background-color: black;
+}
+
 header .navbar a:hover {
   background-color: white;
   color: black;
 }
 
-#menu-bar{
-  display: none;
+
+#menu-bar:checked ~ .navbar{
+  display: initial;
 }
-
- header label{
-  font-size: 20px;
-  color: black;
-  cursor: pointer;
-  display: none;
- }
-
-@media(max-width:600px){
-
-  header{
-    padding: 20px;
-  }
-
-  header label{
-    display: initial;
-    color: white;
-  }
-
-  header .navbar{
-    position: absolute;
-    top: 100%; left: 0; right: 0;
-    display: none;
-    border-top: 1px solid white;
-  }
-
-  header .navbar ul li{
-    width: 100%;
-    color: white;
-    background-color: black;
-  }
-
-  header .navbar a:hover {
-    background-color: white;
-    color: black;
-  }
-
-
-  #menu-bar:checked ~ .navbar{
-    display: initial;
-  }
 }
 
 @media screen and (max-width: 600px) {
-  main{
-    font-size: 12vw;
-  }
+main{
+  font-size: 12vw;
+}
 
-  #portfolio{
-    font-size: 8vw;
-  }
+#portfolio{
+  font-size: 8vw;
+}
 }
 
 .column {
-    float: left;
-    padding: 15px;
+  float: left;
+  padding: 15px;
 }
 
 .side {
-    width: 20%;
-    margin-top: 26.5px;
-    border-bottom: 1px solid black;
+  width: 20%;
+  margin-top: 26.5px;
+  border-bottom: 1px solid black;
 }
 
 #Nikodem{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 50%;
 }
 
 .middle {
-    width: 80%;
-    margin-top: 50px;
-    border-bottom: 1px solid black;
-    text-decoration: none;
-    padding-bottom: 80.5px;
+  width: 80%;
+  margin-top: 50px;
+  border-bottom: 1px solid black;
+  text-decoration: none;
+  padding-bottom: 80.5px;
 }
 
 .row:after {
-    content: "";
-    display: table;
-    clear: both;
+  content: "";
+  display: table;
+  clear: both;
 }
 
 @media screen and (max-width: 600px) {
-    .column {
-        width: 100%;
-    }
-    .middle{
-      border-bottom: none;
-    }
+  .column {
+      width: 100%;
+  }
+  .middle{
+    border-bottom: none;
+  }
 }
 
 .column2 {
-    float: left;
-    padding: 15px;
+  float: left;
+  padding: 15px;
 }
 
 .side2 {
-  width: 80%;
-  margin-top: 35px;
-  border-bottom: 1px solid black;
-  padding-bottom: 88.5px;
+width: 80%;
+margin-top: 35px;
+border-bottom: 1px solid black;
+padding-bottom: 88.5px;
 }
 
 .middle2 {
-  width: 20%;
-  margin-top: 8px;
-  border-bottom: 1px solid black;
+width: 20%;
+margin-top: 8px;
+border-bottom: 1px solid black;
 }
 
 #bocian{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 50%;
 }
 
 .row2:after {
-    content: "";
-    display: table;
-    clear: both;
+  content: "";
+  display: table;
+  clear: both;
 }
 
 @media screen and (max-width: 600px) {
-    .column {
-        width: 100%;
-    }
-    .middle2{
-      border: none;
-    }
+  .column {
+      width: 100%;
+  }
+  .middle2{
+    border: none;
+  }
 }
 
 .footer {
-    background-color: #F1F1F1;
-    text-align: center;
-    padding: 10px;
+  background-color: #F1F1F1;
+  text-align: center;
+  padding: 10px;
 }
