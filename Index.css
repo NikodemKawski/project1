@@ -14,6 +14,7 @@ header{
   align-items: center;
   justify-content: space-between;
   z-index: 1000;
+  border-bottom: 0.5px solid white;
 }
 
 header .navbar ul{
@@ -135,4 +136,5 @@ h2{
   padding: 10px;
   color: white;
   margin-top: 240px;
+  border-top: 0.5px solid white;
 }
