@@ -109,6 +109,16 @@ width: 50%;
   border: 1px solid black;
 }
 
+#vlag2{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  margin-bottom: 47.5px;
+  margin-top: 38px;
+  border: 1px solid black;
+}
+
 .middle {
   width: 80%;
   margin-top: 50px;
@@ -157,6 +167,24 @@ margin-right: auto;
 width: 50%;
 }
 
+#bocianr{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  margin-top: 3.5px;
+  margin-bottom: 15px;
+}
+
+#now{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  margin-top: 100px;
+  margin-bottom: 155.5px;
+}
+
 .row2:after {
   content: "";
   display: table;
@@ -173,7 +201,8 @@ width: 50%;
 }
 
 .footer {
-  background-color: #F1F1F1;
+  background-color: black;
+  color: white;
   text-align: center;
   padding: 10px;
 }
