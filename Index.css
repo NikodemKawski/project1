@@ -142,6 +142,6 @@ h2{
 
 @media screen and (max-width: 600px) {
   .footer{
-  border-bottom: 0.5px solid white;
+  border-top: 0.5px solid white;
   }
 }
