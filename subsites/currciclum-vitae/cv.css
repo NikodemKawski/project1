@@ -1,0 +1,142 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+  }
+  
+  header{
+    position: relative;
+    top: 0; left: 0; right: 0;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+  }
+  
+  header .navbar ul{
+  list-style: none;
+  }
+  
+  header .navbar ul li{
+  float: left;
+  position: relative;
+  }
+  
+  header .navbar ul li a{
+    font-size: 20px;
+    padding: 20px;
+    color: white;
+    display: block;
+  }
+  header .navbar a:hover {
+  background-color: white;
+  color: black;
+  }
+  
+  #menu-bar{
+  display: none;
+  }
+  
+  header label{
+  font-size: 20px;
+  color: black;
+  cursor: pointer;
+  display: none;
+  }
+  
+  @media(max-width:600px){
+  
+  header{
+    padding: 20px;
+  }
+  
+  header label{
+    display: initial;
+    color: white;
+  }
+  
+  header .navbar{
+    position: absolute;
+    top: 100%; left: 0; right: 0;
+    display: none;
+    border-top: 1px solid white;
+  }
+  
+  header .navbar ul li{
+    width: 100%;
+    color: white;
+    background-color: black;
+  }
+  
+  header .navbar a:hover {
+    background-color: white;
+    color: black;
+  }
+  
+  
+  #menu-bar:checked ~ .navbar{
+    display: initial;
+  }
+  }
+  
+  .column {
+    float: left;
+    padding: 15px;
+  }
+  
+  .side {
+    width: 20%;
+    margin-top: 26.5px;
+    border-bottom: 1px solid grey;
+    float: left;
+    padding: 15px;
+  }
+
+  #info {
+    width: 80%;
+    margin-top: 50px;
+    border-bottom: 1px solid gray;
+    text-decoration: none;
+    padding-left: 80px;
+    float: left;
+    padding: 15px;
+  }
+
+  .middle {
+    width: 100%;
+    margin-top: 50px;
+    border-bottom: 1px solid gray;
+    text-decoration: none;
+    padding-left: 80px;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  #Nikodem{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  margin-bottom: 8.5px;
+  }
+
+  @media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
+    .middle{
+      border-bottom: none;
+    }
+  }
+
+  .footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+  }
