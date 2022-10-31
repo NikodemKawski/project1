@@ -58,14 +58,12 @@ header{
 header label{
   display: initial;
   color: white;
-  border-bottom: 0.5px solid white;
 }
 
 header .navbar{
   position: absolute;
   top: 100%; left: 0; right: 0;
   display: none;
-  border-top: 1px solid white;
 }
 
 header .navbar ul li{
