@@ -30,6 +30,7 @@ header .navbar ul li a{
   color: white;
   display: block;
 }
+
 header .navbar a:hover {
 background-color: white;
 color: black;
@@ -46,7 +47,7 @@ cursor: pointer;
 display: none;
 }
 
-@media(max-width:600px){
+@media(max-width:700px){
 
 header{
   padding: 20px;
@@ -86,45 +87,12 @@ header .navbar a:hover {
   padding: 15px;
 }
 
-.side {
-  width: 20%;
-  margin-top: 26.5px;
-  border-bottom: 1px solid black;
-}
-
-#Nikodem{
-display: block;
-margin-left: auto;
-margin-right: auto;
-width: 50%;
-}
-
-#vlag{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-  margin-bottom: 64px;
-  margin-top: 50px;
-  border: 1px solid black;
-}
-
-#vlag2{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-  margin-bottom: 47.5px;
-  margin-top: 38px;
-  border: 1px solid black;
-}
-
 .middle {
-  width: 80%;
-  margin-top: 50px;
-  border-bottom: 1px solid black;
+  width: 100%;
+  margin-top: 10px;
+  border-bottom: 1px solid gray;
   text-decoration: none;
-  padding-bottom: 80.5px;
+  padding-left: 80px;
 }
 
 .row:after {
@@ -132,72 +100,117 @@ width: 50%;
   display: table;
   clear: both;
 }
-
-@media screen and (max-width: 600px) {
-  .column {
-      width: 100%;
-  }
-  .middle{
-    border-bottom: none;
-  }
-}
-
-.column2 {
-  float: left;
-  padding: 15px;
-}
-
-.side2 {
-width: 80%;
-margin-top: 35px;
-border-bottom: 1px solid black;
-padding-bottom: 88.5px;
-}
-
-.middle2 {
-width: 20%;
-margin-top: 8px;
-border-bottom: 1px solid black;
+#Nikodem{
+  margin-left: auto;
+  margin-right: 100px;
+  width: 20%;
+  float: right;
 }
 
 #bocian{
-display: block;
-margin-left: auto;
-margin-right: auto;
-width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 33%;
+  float: left;
 }
 
+#vlag{
+  margin-left: auto;
+  margin-right: 100px;
+  width: 70%;
+  float: right;
+  border: 1px solid black;
+}
+
+#bocianr{
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  float: left;
+}
+
+#vlag2{
+  margin-left: auto;
+  margin-right: 100px;
+  width: 50%;
+  float: right;
+  border: 1px solid black;
+}
+
+#now{
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+  float: left;
+}
+
+.textkolom{
+  margin-right: 80px;
+}
+
+
+@media screen and (max-width: 791px) {
+.column {
+  width: 100%;
+}
+#Nikodem{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 400px;
+  width: 100%;
+  height: auto;
+  margin-bottom: 8.5px;
+  padding-left: 20px;
+}
+
+.middle{
+  padding-left: 10px;
+}
+  
+#bocian{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 400px;
+  width: 100%;
+  height: auto;
+  margin-bottom: 8.5px;
+  padding-right: 20px;
+}
+
+#vlag{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 150px;
+  margin-bottom: 8.5px;
+  margin-left: 20px;
+}
 #bocianr{
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
-  margin-top: 3.5px;
-  margin-bottom: 15px;
+  width: 130px;
+  margin-bottom: 8.5px;
+  margin-right: 20px;
 }
-
+#vlag2{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 150px;
+  margin-bottom: 8.5px;
+  margin-left: 20px;
+}
 #now{
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
-  margin-top: 100px;
-  margin-bottom: 155.5px;
+  width: 230px;
+  margin-bottom: 8.5px;
+  margin-right: 20px;
 }
-
-.row2:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-@media screen and (max-width: 600px) {
-  .column {
-      width: 100%;
-  }
-  .middle2{
-    border: none;
-  }
 }
 
 .footer {
