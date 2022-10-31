@@ -1,0 +1,129 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+  }
+  
+  header{
+    position: relative;
+    top: 0; left: 0; right: 0;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+    border-bottom: 0.5px solid white;
+  }
+  
+  header .navbar ul{
+  list-style: none;
+  }
+  
+  header .navbar ul li{
+  float: left;
+  position: relative;
+  }
+  
+  header .navbar ul li a{
+    font-size: 20px;
+    padding: 20px;
+    color: white;
+    display: block;
+  }
+  header .navbar a:hover {
+  background-color: white;
+  color: black;
+  }
+  
+  #menu-bar{
+  display: none;
+  }
+  
+  header label{
+  font-size: 20px;
+  color: black;
+  cursor: pointer;
+  display: none;
+  }
+  
+  @media screen and (max-width:600px){
+  
+  header{
+    padding: 20px;
+    border-bottom: 0.5px solid white;
+  }
+  
+  header label{
+    display: initial;
+    color: white;
+  }
+  
+  header .navbar{
+    position: absolute;
+    top: 100%; left: 0; right: 0;
+    display: none;
+  }
+  
+  header .navbar ul li{
+    width: 100%;
+    color: white;
+    background-color: black;
+  }
+  
+  header .navbar a:hover {
+    background-color: white;
+    color: black;
+  }
+  
+  #menu-bar:checked ~ .navbar{
+    display: initial;
+  }
+  }
+
+.column {
+    float: left;
+    width: 30%;
+    padding: 10px;
+    margin-top: 30px;
+    margin-left: 20px;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 25px;
+    height: 500px;
+    background-color: rgb(236, 236, 236);
+  }
+  
+  .img{
+    width: 90%;
+    border-radius: 25px;
+  }
+
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+  }
+
+  .footer {
+    background-color: black;
+    text-align: center;
+    padding: 10px;
+    color: white;
+    margin-top: 240px;
+    border-top: 0.5px solid white;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .footer{
+    border-top: 0.5px solid white;
+    }
+  }
+
+  
