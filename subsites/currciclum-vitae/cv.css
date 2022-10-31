@@ -139,11 +139,26 @@
   }
   table td {
     padding: 1rem;
+    text-align: center;
   }
 
   .resonsivetable{
     overflow-x: auto;
   }
+
+.btn {
+  background-color: black;
+  border: 1px solid white;
+  color: white;
+  padding: 12px 30px;
+  cursor: pointer;
+  font-size: 20px;
+  margin: 5px;
+}
+
+.btn:hover {
+  background-color: grey;
+}
 
   @media screen and (max-width: 791px) {
     .column {
@@ -168,6 +183,9 @@
     #info{
       padding-left: 10px;
     }
+  table{
+    width: 100%;
+  }
   }
 
   .footer {
