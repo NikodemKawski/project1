@@ -85,17 +85,9 @@
     float: left;
     padding: 15px;
   }
-  
-  .side {
-    width: 20%;
-    margin-top: 26.5px;
-    border-bottom: 1px solid grey;
-    float: left;
-    padding: 15px;
-  }
 
   #info {
-    width: 80%;
+    width: 100%;
     margin-top: 50px;
     border-bottom: 1px solid gray;
     text-decoration: none;
