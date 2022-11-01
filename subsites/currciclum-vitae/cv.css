@@ -138,6 +138,23 @@
     overflow-x: auto;
   }
 
+  .socials {
+    width: 100%;
+    text-decoration: none;
+  }
+
+  .links{
+    text-decoration: none;
+    color: white;
+  }
+
+  .linkstabel {
+    margin-bottom: 10px;
+    width: 100%;
+    text-decoration: none;
+    text-align: center;
+  }
+
 .btn {
   background-color: black;
   border: 1px solid white;
