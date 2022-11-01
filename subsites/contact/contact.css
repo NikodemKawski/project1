@@ -219,6 +219,23 @@
      margin-left: 0;
    }
 }
+
+.socials {
+  width: 100%;
+  text-decoration: none;
+}
+
+.links{
+  text-decoration: none;
+  color: white;
+}
+
+.linkstabel {
+  margin-bottom: 10px;
+  width: 100%;
+  text-decoration: none;
+  text-align: center;
+}
 .footer {
     background-color: black;
     text-align: center;
