@@ -150,9 +150,9 @@
     width: 100%;
     margin: 12px 0;
   }
-  .right-side .input-box input,
-  .right-side .input-box textarea{
-    height: 100%;
+  .right-side .input-box,
+  textarea{
+    height: 50px;
     width: 100%;
     border: none;
     outline: none;
@@ -162,10 +162,10 @@
     padding: 0 15px;
     resize: none;
   }
-  .right-side .message-box{
+  textarea{
     min-height: 110px;
   }
-  .right-side .input-box textarea{
+  textarea{
     padding-top: 6px;
   }
   .right-side .submit{
