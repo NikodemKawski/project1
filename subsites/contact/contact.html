@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/subsites/contact/contact.css">
-    <title>Interessen</title>
+    <title>Contact</title>
 </head>
 <body>
     <div>
@@ -20,7 +20,7 @@
                     <li><a href="/subsites/currciclum-vitae/cv.html">Curriclum Vitae</a></li>
                     <li><a href="/subsites/Ervaring/ervaring.html">Ervaring</a></li>
                     <li><a href="/subsites/interessen/interessen.html">Interesses</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="/subsites/contact/contact.html">Contact</a></li>
                 </ul>
             </nav>
         </header>
@@ -40,25 +40,15 @@
           </div>
           <div class="right-side">
             <div class="topic-text">Stel uw vraag</div>
-            <form action="#">
-            <div class="input-box">
-              <input type="text" placeholder="Uw naam" required>
-            </div>
-            <div class="input-box">
-              <input type="text" placeholder="Uw e-mail" required>
-            </div>
-            <div class="input-box message-box">
-                <input type="text" placeholder="Bericht" required>
-            </div>
-            <div class="button">
-              <input type="button" value="Verzenden" >
-            </div>
-          </form>
+                <form action="contact.php" method="post">
+                    <input class="input-box" type="text"  name="name" placeholder="Your name..">
+                    <input class="input-box" type="email"  name="email" placeholder="Your email..">
+                    <textarea class="input-box message-box"  name="message" placeholder="Write something.." style="height:200px"></textarea>
+                    <input class="submit" type="submit" value="Submit">
+                </form>
         </div>
         </div>
       </div>
-    </body>
-
     <div class="footer">
         <div class="row">
             <div class="socials">
