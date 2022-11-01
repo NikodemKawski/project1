@@ -40,10 +40,12 @@
           </div>
           <div class="right-side">
             <div class="topic-text">Stel uw vraag</div>
-                <form action="contact.php" method="post">
-                    <input class="input-box" type="text"  name="name" placeholder="Your name..">
-                    <input class="input-box" type="email"  name="email" placeholder="Your email..">
-                    <textarea class="input-box message-box"  name="message" placeholder="Write something.." style="height:200px"></textarea>
+                <form action="https://formsubmit.co/contact@nikodem-portfolio.be" method="post">
+                    <input type="hidden" name="_next" value="https://nikodem-portfolio.be/thankyou.html">
+                    <input class="input-box" type="text"  name="name" placeholder="Uw naam">
+                    <input class="input-box" type="email"  name="email" placeholder="Uw e-mail">
+                    <textarea class="input-box message-box"  name="message" placeholder="Uw bericht" style="height:200px"></textarea>
+                    <input type="text" name="_honey" style="display:none">
                     <input class="submit" type="submit" value="Submit">
                 </form>
         </div>
