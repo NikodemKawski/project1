@@ -148,6 +148,27 @@ header .navbar a:hover {
   margin-right: 80px;
 }
 
+.socials {
+  width: 100%;
+  text-decoration: none;
+}
+
+.links{
+  text-decoration: none;
+  color: white;
+}
+
+.linkstabel {
+  margin-bottom: 10px;
+  width: 100%;
+  text-decoration: none;
+  text-align: center;
+}
+
+.resonsivetable{
+  overflow-x: auto;
+}
+
 
 @media screen and (max-width: 791px) {
 .column {
