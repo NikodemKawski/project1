@@ -168,11 +168,11 @@
   .right-side .input-box textarea{
     padding-top: 6px;
   }
-  .right-side .button{
+  .right-side .submit{
     display: inline-block;
     margin-top: 12px;
   }
-  .right-side .button input[type="button"]{
+  .right-side .submit[type="submit"]{
     color: #fff;
     font-size: 18px;
     outline: none;
@@ -183,7 +183,7 @@
     cursor: pointer;
     transition: all 0.3s ease;
   }
-  .button input[type="button"]:hover{
+  .submit[type="submit"]:hover{
     background: grey;
   }
   
@@ -218,31 +218,11 @@
      width: 100%;
      margin-left: 0;
    }
-  }
-
-  .socials {
-    width: 100%;
-    text-decoration: none;
-  }
-
-  .links{
-    text-decoration: none;
-    color: white;
-  }
-
-  .linkstabel {
-    margin-bottom: 10px;
-    width: 100%;
-    text-decoration: none;
-    text-align: center;
-  }
-
-  .footer {
+}
+.footer {
     background-color: black;
     text-align: center;
     padding: 10px;
     color: white;
     margin-top: 30px;
   }
-
-  
