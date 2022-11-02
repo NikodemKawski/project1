@@ -92,7 +92,7 @@
     text-align: center;
     border: 1px solid black;
     border-radius: 25px;
-    height: 540px;
+    height: auto;
     background-color: rgb(236, 236, 236);
   }
 
@@ -109,7 +109,7 @@
       text-align: center;
       border: 1px solid black;
       border-radius: 25px;
-      height: 540px;
+      height: auto;
       background-color: rgb(236, 236, 236);
     }
       .img{
@@ -131,7 +131,7 @@
         text-align: center;
         border: 1px solid black;
         border-radius: 25px;
-        height: 540px;
+        height: auto;
         background-color: rgb(236, 236, 236);
       }
         .img{
@@ -152,7 +152,7 @@
     text-align: center;
     border: 1px solid black;
     border-radius: 25px;
-    height: 540px;
+    height: auto;
     background-color: rgb(236, 236, 236);
   }
     .img{
@@ -173,7 +173,7 @@
     text-align: center;
     border: 1px solid black;
     border-radius: 25px;
-    height: 540px;
+    height: auto;
     background-color: rgb(236, 236, 236);
   }
     .img{
