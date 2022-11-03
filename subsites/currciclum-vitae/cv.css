@@ -89,7 +89,7 @@
   #info {
     width: 100%;
     margin-top: 50px;
-    border-bottom: 1px solid gray;
+    border-bottom: 2px solid black;
     text-decoration: none;
     float: left;
     padding: 15px;
@@ -99,13 +99,9 @@
   .middle {
     width: 100%;
     margin-top: 10px;
-    border-bottom: 1px solid gray;
+    border-bottom: 2px solid black;
     text-decoration: none;
     padding-left: 80px;
-  }
-
-  p{
-    padding-bottom: 10px;
   }
   
   .row:after {
@@ -125,13 +121,14 @@
 
   table {
     margin: 0;
-    width: 1000px;
+    width: 100%;
     text-decoration: none;
     text-align: center;
   }
   table td {
     padding: 1rem;
     text-align: center;
+    width: 120px;
   }
 
   .resonsivetable{
@@ -167,6 +164,15 @@
 
 .btn:hover {
   background-color: grey;
+}
+
+.wrapper{
+  text-align: center;
+}
+
+h2{
+  font-style: italic;
+  text-decoration: underline;
 }
 
   @media screen and (max-width: 791px) {
